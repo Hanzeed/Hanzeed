@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul>
+        <li>
+            <a href="/">Home</a>
+        </li>
+        <li>
+            <a href="/pages/products.html">Products</a>
+        </li>
+        <li>
+            <a href="/pages/orders.html">Orders</a>
+        </li>
+        <li>
+            <a href="/about.html">About</a>
+        </li>
+        <li>
+            <a href="/index2.html">Index2</a>
+        </li>
+    </ul>
+
+    <h1>About</h1>
+
+    <table> <!--Táblázat: caption: cím tr: sor td: cella-->
+        <caption>Opening hours</caption>
+        <thead> <!--Fejléc-->
+            <tr>
+                <th>Day</th>
+                <th>Open</th>
+                <th>Close</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday - Friday</td>
+                <td>09:00</td>
+                <td rowspan="2">21:00</td> <!--rowspan:2 két sorra nyúl rá, 2 sor magas-->
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>09:00</td>
+                <!--<td>24:00</td>-->
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td colspan="2">closed</td> <!--colspan: oszlopszélesség-->
+                
+            </tr>
+        </tbody>
+
+        <tfoot> <!--Lábléc-->
+            <tr>
+                <td colspan="3">
+                    &copy; 2019
+                </td>
+            </tr>
+        </tfoot>
+       
+    </table>
+
+    <!-- <a href="index.html">Link</a>
+   <p><a href="http://127.0.0.1:5500/index.html">home</a></p> -->
+</body>
+</html>
